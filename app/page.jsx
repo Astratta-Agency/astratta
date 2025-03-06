@@ -10,7 +10,7 @@ export const metadata = {
   title:
     "Astratta Agency | Modern Designs, Sustainable Solutions",
   description:
-    "Web Development | Graphic Design | Digital Marketing",
+    "Astratta Web Development | Graphic Design | Digital Marketing",
 };
 
 export default function Home() {
