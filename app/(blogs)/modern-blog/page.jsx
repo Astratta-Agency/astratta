@@ -1,11 +1,11 @@
 import Pagination from "@/components/common/Pagination";
-import Footer2 from "@/components/footers/Footer2";
+import Footer5 from "@/components/footers/Footer5";
 import Header8 from "@/components/headers/Header8";
 import Form5 from "@/components/newsletterForms/Form5";
 
-import { blogs12 } from "@/data/blogs";
+import { blogs8 } from "@/data/blogs";
 
-import { modernMultipage } from "@/data/menu";
+import { modernOnepage } from "@/data/menu";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,14 +23,14 @@ export default function ModernBlogPage() {
       <div className="theme-modern">
         <div className="page" id="top">
           <nav className="main-nav dark transparent stick-fixed wow-menubar">
-            <Header8 links={modernMultipage} />
+            <Header8 links={modernOnepage} />
           </nav>{" "}
           <main id="main">
             <ParallaxContainer
               className="page-section pt-90 pb-90 pb-xs-40 bg-dark-alpha-60 parallax-5 light-content"
               style={{
                 backgroundImage:
-                  "url(/assets/images/demo-modern/section-bg-7.jpg)",
+                  "url(/assets/images/blog-hero-1.webp)",
               }}
               id="home"
             >
@@ -38,7 +38,7 @@ export default function ModernBlogPage() {
                 <div className="mb-20">
                   <div className="mb-10">
                     <Link
-                      href="/modern-multi-page"
+                      href="/"
                       className="link-hover-anim align-middle"
                       data-btn-animate="y"
                     >
@@ -101,7 +101,7 @@ export default function ModernBlogPage() {
                   {/* Blog Grid */}
                   <div className="row gx-5 mt-n50 mt-sm-n30 mb-50 mb-sm-30">
                     {/* Post Item */}
-                    {blogs12.map((elm, i) => (
+                    {blogs8.map((elm, i) => (
                       <div
                         key={i}
                         className="post-prev-2 col-md-6 col-lg-4 mt-50 mt-sm-30"
@@ -156,8 +156,8 @@ export default function ModernBlogPage() {
               </section>
             </>
           </main>
-          <footer className="footer-1 bg-dark-1 light-content">
-            <Footer2 />
+          <footer className="bg-dark-1 light-content footer z-index-1 position-relative">
+            <Footer5 />
           </footer>
         </div>{" "}
       </div>

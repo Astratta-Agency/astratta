@@ -1,5 +1,7 @@
 import Pagination from "@/components/common/Pagination";
 import Footer9 from "@/components/footers/Footer9";
+import Header8 from "@/components/headers/Header8";
+import Footer5 from "@/components/footers/Footer5";
 import Header10 from "@/components/headers/Header10";
 
 import { blogs10 } from "@/data/blogs";
@@ -17,7 +19,7 @@ const dark = false;
 const onePage = false;
 export const metadata = {
   title:
-    "Home 10 Blog || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "Blog | Astratta Agency",
   description:
     "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };

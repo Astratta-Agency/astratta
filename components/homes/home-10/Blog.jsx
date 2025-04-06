@@ -13,13 +13,11 @@ export default function Blog() {
             Latest <span className="font-alt">News</span>
           </h3>
           <p className="mb-40">
-            Etiam metus felis, dapibus sit amet consequat a, convallis mollis
-            odio. Quisque scelerisque dui id fermentum venenatis. Aliquam
-            lobortis ligula id efficitur iaculis.
+          Stay ahead of the curve with our latest insights and trends in web development, design, and digital marketing.
           </p>
           <div className="local-scroll">
             <Link
-              href={`/strong-blog`}
+              href={`/modern-blog`}
               className="btn btn-mod btn-white btn-large btn-round btn-hover-anim"
             >
               <span>View Blog</span>

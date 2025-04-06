@@ -6,7 +6,7 @@ import Widget1 from "@/components/blog/widgets/Widget1";
 import Footer2 from "@/components/footers/Footer2";
 import Header8 from "@/components/headers/Header8";
 
-import { modernMultipage } from "@/data/menu";
+import { modernOnepage } from "@/data/menu";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +26,7 @@ export default async function ModernBlogSinglePage(props) {
       <div className="theme-modern">
         <div className="page" id="top">
           <nav className="main-nav dark transparent stick-fixed wow-menubar">
-            <Header8 links={modernMultipage} />
+            <Header8 links={modernOnepage} />
           </nav>{" "}
           <main id="main">
             <ParallaxContainer

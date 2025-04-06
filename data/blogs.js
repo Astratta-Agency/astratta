@@ -207,8 +207,8 @@ export const blogs8 = [
   {
     id: 20,
     imageSrc: "/assets/images/demo-modern/blog/1.jpg",
-    title: "Natura Insects Series: Crafting Insects Made by Flowers",
-    date: "December 3, 2023",
+    title: "The Importance of UX/UI in Modern Web Development",
+    date: "March 3, 2025",
     rellaxY: "",
     rellaxSpeed: -1,
     rellaxPercentage: "0.37",
@@ -216,8 +216,8 @@ export const blogs8 = [
   {
     id: 21,
     imageSrc: "/assets/images/demo-modern/blog/2.jpg",
-    title: "Minimalistic Design Concept for Balmain Online Store",
-    date: "December 2, 2023",
+    title: "Speed Up Your Website: Essential Tips for Faster Loading Times",
+    date: "March 15, 2025",
     rellaxY: "",
     rellaxSpeed: 0,
     rellaxPercentage: "",
@@ -225,8 +225,8 @@ export const blogs8 = [
   {
     id: 22,
     imageSrc: "/assets/images/demo-modern/blog/3.jpg",
-    title: "Stylish Newspaper Cover Illustration",
-    date: "November 29, 2023",
+    title: "How to Choose the Right Web Development Agency for Your Projec",
+    date: "March 23, 2025",
     rellaxY: "",
     rellaxSpeed: 1,
     rellaxPercentage: "0.37",

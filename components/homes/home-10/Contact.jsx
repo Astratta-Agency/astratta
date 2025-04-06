@@ -11,29 +11,10 @@ export default function Contact() {
           <h2 className="section-title-strong mb-40">
             Let’s work <span className="font-alt">together</span>
           </h2>
-          <p className="mb-0">
-            Integer non efficitur ex lorem ipsum. Praesent mauris, dignissim
-            ultricies sapien non, pulvinar volutpat elit donec lorem impsum
-            blandit mollis ipsum, eu fringilla.
+          <p className="mb-5">
+          Unlock your digital potential. Share your vision with us, and we'll craft a tailored solution to help your business thrive online.
           </p>
-        </div>
-        <div className="col-lg-7 offset-xl-1">
-          <div className="round overflow-hidden">
-            <Image
-              width={1080}
-              height={516}
-              src="/assets/images/demo-strong/section-image-5.jpg"
-              alt="Image Description"
-              className="wow scaleOutIn"
-              data-wow-offset={110}
-            />
-          </div>
-        </div>
-      </div>
-      <div className="row wow fadeInUp" data-wow-delay="0.27s">
-        {/* Contact Info */}
-        <div className="col-lg-5 col-xl-4 mb-md-90 mb-sm-50">
-          <div className="contact-2">
+          <div className="contact-2 mb-md-90 mb-sm-50">
             {/* Contact Info Item */}
             {contactItems.map((elm, i) => (
               <div key={i} className="contact-2-item">
@@ -42,9 +23,9 @@ export default function Contact() {
                 </div>
                 <div className="contat-2-intro">
                   <h4 className="contact-2-title">
-                    {elm.link.text.split(" ")[0]}{" "}
+                    {elm.text.split(" ")[0]}{" "}
                     <span className="font-alt">
-                      {elm.link.text.split(" ")[1]}
+                      {elm.text.split(" ")[1]}
                     </span>
                   </h4>
                   <div className="contact-2-text">
@@ -54,14 +35,11 @@ export default function Contact() {
               </div>
             ))}
             {/* End Contact Info Item */}
-
-            {/* End Contact Info Item */}
           </div>
         </div>
-        {/* End Contact Info */}
-        {/* Contact Form */}
         <div className="col-lg-7 offset-xl-1">
-          <form
+          {/* Contact Form */}
+        <form
             onSubmit={(e) => e.preventDefault()}
             className="form contact-form"
             id="contact_form"
@@ -100,9 +78,107 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+            {/* company and service */}
+            <div className="row">
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="company">Company</label>
+                  <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    className="input-lg round form-control"
+                    placeholder="Enter your company name"
+                    pattern=".{3,100}"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              <div className="col-md-6">
+                {/* Name */}
+                <div className="form-group">
+                  <label htmlFor="website">Website</label>
+                  <input
+                    type="text"
+                    name="website"
+                    id="website"
+                    className="input-lg round form-control"
+                    placeholder="Enter your company current website"
+                    pattern=".{3,100}"
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              </div>
+              <div className="row">
+              <div className="col-md-6">
+                {/* Email */}
+                <div className="form-group">
+                  <label htmlFor="service">What services are you interested in?</label>
+                  <div className="mb-20 mb-md-10">
+                          <label className="checkbox-inline me-3">
+                            <input
+                              type="checkbox"
+                              id="inlineCheckbox1"
+                              className="form-check-input"
+                              defaultValue="Web Development"
+                            />{" "}
+                            <span className="form-check-label">Web Development</span>
+                          </label>
+                          <label className="checkbox-inline me-3">
+                            <input
+                              type="checkbox"
+                              id="inlineCheckbox2"
+                              className="form-check-input"
+                              defaultValue="Graphic Design"
+                            />{" "}
+                            <span className="form-check-label">Graphic Design</span>
+                          </label>
+                          <label className="checkbox-inline me-3">
+                            <input
+                              type="checkbox"
+                              id="inlineCheckbox3"
+                              className="form-check-input"
+                              defaultValue="Digital Marketing"
+                            />{" "}
+                            <span className="form-check-label">Digital Marketing</span>
+                          </label>
+                          <label className="checkbox-inline me-3">
+                            <input
+                              type="checkbox"
+                              id="inlineCheckbox3"
+                              className="form-check-input"
+                              defaultValue="Brand Identity"
+                            />{" "}
+                            <span className="form-check-label">Brand Identity</span>
+                          </label>
+                          <label className="checkbox-inline me-3">
+                            <input
+                              type="checkbox"
+                              id="inlineCheckbox3"
+                              className="form-check-input"
+                              defaultValue="Social Media"
+                            />{" "}
+                            <span className="form-check-label">Social Media</span>
+                          </label>
+                          <label className="checkbox-inline me-3">
+                            <input
+                              type="checkbox"
+                              id="inlineCheckbox3"
+                              className="form-check-input"
+                              defaultValue="Email Marketing"
+                            />{" "}
+                            <span className="form-check-label">Email Marketing</span>
+                          </label>
+                        </div>
+                </div>
+              </div>
+            </div>
             {/* Message */}
             <div className="form-group">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Tell us about your project</label>
               <textarea
                 name="message"
                 id="message"
@@ -144,8 +220,10 @@ export default function Contact() {
               aria-atomic="true"
             />
           </form>
+          {/* End Contact Form */}
+      
+
         </div>
-        {/* End Contact Form */}
       </div>
     </div>
   );

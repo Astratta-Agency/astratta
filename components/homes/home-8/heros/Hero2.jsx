@@ -89,8 +89,8 @@ export default function Hero2() {
           <i className="fa-instagram" />
         </a>
         <a href="#" className="hs-social-link">
-          <span className="visually-hidden">Twitter</span>
-          <i className="fa-twitter" />
+          <span className="visually-hidden">LinkIn</span>
+          <i className="fa-linkin" />
         </a>
         <a href="#" className="hs-social-link">
           <span className="visually-hidden">Facebook</span>

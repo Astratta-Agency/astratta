@@ -94,7 +94,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-1.jpg"
+                src="/assets/images/page/945x1016-web.png"
                 alt="Image Description"
               />
             </div>
@@ -124,7 +124,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-2.jpg"
+                src="/assets/images/page/945x1016-web-2.png"
                 alt="Image Description"
               />
             </div>
@@ -154,7 +154,7 @@ export default function Service() {
                 width={945}
                 height={1016}
                 className="services-image"
-                src="/assets/images/services/service-3.jpg"
+                src="/assets/images/page/945x1016-web-3.png"
                 alt="Image Description"
               />
             </div>

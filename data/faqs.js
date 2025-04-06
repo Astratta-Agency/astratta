@@ -1,27 +1,39 @@
 export const faqs = [
   {
     id: 1,
-    question: "01. Discussion",
+    question: "01. Discovery & Understanding",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.",
+      "Let's Talk! We begin by diving into your project goals and needs, getting to know your vision and ensuring we capture every detail to create a website that truly resonates.",
   },
   {
     id: 2,
-    question: "02. Design",
+    question: "02. Planning & Visualization",
     answer:
-      "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet dignissim pellentesque felis.",
+      "We'll map out your project, creating a clear roadmap and visualizing your website's structure and layout, allowing you to see the big picture and provide feedback.",
   },
   {
     id: 3,
-    question: "03. Development",
+    question: "03. Building Your Experience",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "Our team brings your brand to life, crafting a visually stunning design and building a functional, user-friendly website that's optimized for performance.",
   },
   {
     id: 4,
-    question: "04. Production",
+    question: "04. Ensuring Quality & Delight",
     answer:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna.",
+      "We rigorously test the website to ensure it's bug-free and performs flawlessly, then invite you to explore and provide feedback, ensuring it aligns with your vision.",
+  },
+  {
+    id: 5,
+    question: "05. Launching Your Success & Supporting it",
+    answer:
+      "We handle the final preparations and launch your website, providing ongoing support to ensure its continued success and address any questions.",
+  },
+  {
+    id: 6,
+    question: "06. Celebration & Growth",
+    answer:
+      "We'll review the project together, celebrate our successful collaboration, and offer ongoing maintenance to keep your website fresh and optimized. Officially Yours (Project Sign-off): We'll hand over all project deliverables and celebrate the completion of your new website.",
   },
 ];
 
